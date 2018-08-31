@@ -1,2 +1,2 @@
-"# portfolio"  git init git add README.md git commit -m "��砫� ࠡ���" git remote add origin git@github.com:zbralex/portfolio.git git push -u origin master
-"# portfolio" 
+# Моё портфолио
+## Портфолио будет доступно после сборки по адресу: https://zbralex.github.io/ [GitHub](https://zbralex.github.io/)
