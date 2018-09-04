@@ -31,9 +31,22 @@
   font-style: italic;
 }
 .my-works__wrapper-image {
+  max-width: 420px;
+  margin: 0 auto;
   margin-bottom: 25px;
 }
 .my-works__image {
   width: 100%;
   height: auto;
+}
+@media @tablets {
+  .my-works {
+    max-width: 768px;
+  }
+  .my-works__wrapper-image {
+    max-width: 768px;
+  }
+  .my-works__header {
+    margin: 10px auto 10px;
+  }
 }

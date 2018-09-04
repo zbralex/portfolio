@@ -28,3 +28,31 @@
   width: 100%;
   height: auto;
 }
+
+@media @tablets {
+  .header-main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 95%;
+    height: 355px;
+    max-width: 900px;
+    padding: 0 10px;
+  }
+  .header-title{
+    width: 45%;
+    margin: 15px 0;
+  }
+  .header-description {
+    width: 45%;
+  }
+  .header-main > picture {
+    width: 50%;
+    max-width: 365px;
+    margin: 20px;
+  }
+  .header-portfolio {
+    margin: 0 0;
+  }
+}
