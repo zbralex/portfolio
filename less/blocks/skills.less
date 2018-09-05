@@ -21,3 +21,49 @@
     flex-basis: 45%;
   }
 }
+
+@media @desktop {
+  .skills {
+    text-align: center;
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .skills__header {
+    font-size: 40px;
+  }
+  .skills-list {
+    margin-top: 32px;
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .skills__list-item {
+    position: relative;
+  }
+  .skills__list-item::after {
+    content: "";
+    width: 90px;
+    height: 35px;
+    position: absolute;
+    left: 65%;
+    bottom: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .skills__list-item--html-css::after{
+    background-image: url("../img/icon_html-css.png");
+  }
+  .skills__list-item--less::after{
+    background-image: url("../img/icon_less.png");
+  }
+  .skills__list-item--gulp::after{
+    background-image: url("../img/icon_gulp.png");
+  }
+  .skills__list-item--photoshop::after{
+    background-image: url("../img/icon_photoshop.png");
+  }
+  .skills__list-item--javascript::after{
+    background-image: url("../img/icon_js.png");
+  }
+}
