@@ -1,0 +1,41 @@
+.about-me {
+  min-width: 300px;
+  width: 90%;
+  max-width: 530px;
+  margin: 0 auto;
+}
+
+.about-me__header {
+  margin: 28px 0 0;
+}
+
+.about-me__description {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    margin: 0;
+}
+
+@media @tablets {
+  .about-me {
+    flex-basis: 45%;
+  }
+}
+
+@media @desktop {
+  .about-me {
+    text-align: center;
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-top: 80px;
+  }
+  .about-me__header {
+    font-size: 40px;
+  }
+  .about-me__description {
+    font-size: 28px;
+    max-width: 790px;
+    margin: 15px auto 0;
+    line-height: 44px;
+  }
+}

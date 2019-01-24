@@ -2,3 +2,19 @@ body {
   min-width: 320px;
   font-family: "Roboto", sans-serif;
 }
+@media @tablets {
+  main {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    width: 100%;
+    max-width: 945px;
+    margin: 0 auto;
+  }
+}
+
+@media @desktop {
+  main {
+    max-width: 1150px;
+  }
+}
