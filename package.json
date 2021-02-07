@@ -1,31 +1,45 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Портфолио Зубрицкого Александра",
-  "devDependencies": {
-    "autoprefixer": "6.7.x",
-    "browser-sync": "2.18.12",
-    "gulp": "3.9.1",
-    "gulp-less": "3.3.0",
-    "gulp-plumber": "1.1.0",
-    "gulp-postcss": "6.4.0",
-    "editorconfig-cli": "1.x"
-  },
+  "version": "0.0.0",
   "scripts": {
-    "test": "editorconfig-cli",
-    "build": "gulp style",
-    "start": "gulp serve"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
   },
-  "editorconfig-cli": [
-    "*.html",
-    "*.json",
-    "*.js",
-    "js/**/*.js",
-    "img/**/*.svg",
-    "less/**/*.less"
-  ],
-  "engines": {
-    "node": "6.10"
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~11.1.1",
+    "@angular/common": "~11.1.1",
+    "@angular/compiler": "~11.1.1",
+    "@angular/core": "~11.1.1",
+    "@angular/forms": "~11.1.1",
+    "@angular/platform-browser": "~11.1.1",
+    "@angular/platform-browser-dynamic": "~11.1.1",
+    "@angular/router": "~11.1.1",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.0.0",
+    "zone.js": "~0.11.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.1101.2",
+    "@angular/cli": "~11.1.2",
+    "@angular/compiler-cli": "~11.1.1",
+    "@types/jasmine": "~3.6.0",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^6.0.0",
+    "jasmine-core": "~3.6.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma": "~5.2.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "protractor": "~7.0.0",
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0",
+    "typescript": "~4.1.2"
   }
 }
