@@ -778,19 +778,19 @@ body {
     background-position: center;
   }
   /*.skills__list-item--html-css::after {*/
-  /*  background-image: url("../img/icon_html-css.png");*/
+  /*  background-image: url("../assets/img/icon_html-css.png");*/
   /*}*/
   /*.skills__list-item--less::after {*/
-  /*  background-image: url("../img/icon_less.png");*/
+  /*  background-image: url("../assets/img/icon_less.png");*/
   /*}*/
   /*.skills__list-item--gulp::after {*/
-  /*  background-image: url("../img/icon_gulp.png");*/
+  /*  background-image: url("../assets/img/icon_gulp.png");*/
   /*}*/
   /*.skills__list-item--photoshop::after {*/
-  /*  background-image: url("../img/icon_photoshop.png");*/
+  /*  background-image: url("../assets/img/icon_photoshop.png");*/
   /*}*/
   /*.skills__list-item--javascript::after {*/
-  /*  background-image: url("../img/icon_js.png");*/
+  /*  background-image: url("../assets/img/icon_js.png");*/
   /*}*/
   .socials {
     max-width: 1150px;
