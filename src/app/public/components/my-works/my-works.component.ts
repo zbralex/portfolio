@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {PROJECTS} from "../../mock/projects-data";
 
 @Component({
   selector: 'app-my-works',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./my-works.component.css']
 })
 export class MyWorksComponent implements OnInit {
+
+  projects = PROJECTS
 
   constructor() { }
 
