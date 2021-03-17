@@ -37,4 +37,8 @@
     margin: 15px auto 0;
     line-height: 44px;
   }
+
+  .about-me__description  ul {
+     text-align: left;
+   }
 }
