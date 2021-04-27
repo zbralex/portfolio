@@ -6,6 +6,7 @@ import {MishkaComponent} from './pages/projects/mishka/mishka.component';
 import {SedonaComponent} from './pages/projects/sedona/sedona.component';
 import {AffinageComponent} from './pages/projects/affinage/affinage.component';
 import {ProjectsModule} from "./pages/projects/projects.module";
+import {MishkaModule} from "./pages/projects/mishka/mishka.module";
 
 
 const routes: Routes = [
@@ -16,11 +17,12 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [MishkaComponent],
-    imports: [
-        CommonModule,
-        RouterModule.forChild(routes),
-        ProjectsModule
-    ]
+  imports: [
+    CommonModule,
+    RouterModule.forChild(routes),
+    ProjectsModule,
+    MishkaModule
+  ]
 })
 export class PublicModule {
 }

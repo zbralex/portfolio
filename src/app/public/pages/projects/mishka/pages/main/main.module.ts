@@ -19,7 +19,7 @@ import {RouterModule} from "@angular/router";
     ReviewsComponent,
     ContactsComponent,
     FeedbackComponent,
-    MainNavComponent
+    
   ],
   exports: [
     PromoHitComponent

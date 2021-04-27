@@ -20,7 +20,11 @@ const routes: Routes = [
   declarations: [
     MainComponent,
     PromoHitComponent,
-    AddToCartComponent
+    AddToCartComponent,
+    MainNavComponent
+  ],
+  exports: [
+    MainNavComponent
   ],
   imports: [
     CommonModule,
