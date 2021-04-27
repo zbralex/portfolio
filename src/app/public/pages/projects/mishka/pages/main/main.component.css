@@ -426,79 +426,7 @@ template {
 .btn:focus {
   outline: 0;
 }
-.add-to-cart {
-  position: absolute;
-  top: 70%;
-  left: 0;
-  right: 0;
-  min-height: 337px;
-  width: 320px;
-  text-align: center;
-  border-top: 2px solid #c7c7c7;
-  box-shadow: 0 5px 5px 0 #dedede;
-  margin: 0 auto;
-  background-color: #ffffff;
-}
-.add-to-cart--invisible {
-  visibility: hidden;
-}
-.add-to-cart--visible {
-  visibility: visible;
-}
-.add-to-cart__title {
-  font-size: 25px;
-  font-weight: bold;
-  line-height: 30px;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 30px 80px 25px;
-}
-.add-to-cart__text-hint {
-  font-size: 15px;
-  line-height: 30px;
-  text-align: center;
-  color: #444444;
-  padding-bottom: 25px;
-}
-.add-to-cart__add {
-  font-size: 17px;
-  font-family: inherit;
-  line-height: 16px;
-  font-weight: bold;
-  color: #ffffff;
-  background-color: #63d1bb;
-  text-transform: uppercase;
-  border: none;
-  margin: 40px 0;
-  padding: 15px 90px;
-  cursor: pointer;
-}
-.add-to-cart__group {
-  padding: 0;
-}
-/****************************************/
-.add-to-cart__prop-value {
-  display: none;
-}
-.add-to-cart__prop {
-  display: inline-block;
-  vertical-align: middle;
-  height: 35px;
-  width: 82px;
-  cursor: pointer;
-  border: 2px solid rgba(68, 68, 68, 0.1);
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 16px;
-  margin: 2px 5px;
-  padding-top: 15px;
-}
-.add-to-cart__prop-value:checked + .add-to-cart__prop {
-  border: 2px solid #63d1bb;
-}
-.add-to-cart__prop:hover {
-  border-color: rgba(68, 68, 68, 0.3);
-}
+
 .page-header {
   text-align: left;
   margin: 0 auto;
@@ -583,73 +511,7 @@ template {
 .catalog-nav__item .icon-toy:active {
   opacity: 0.3;
 }
-.about-company {
-  min-width: 260px;
-  margin: 0 auto;
-  padding: 15px 29px 20px;
-  min-height: 800px;
-}
-.about-company__title {
-  margin: 15px 0 5px;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 30px;
-  color: #000000;
-}
-.about-company__list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  margin-top: 15px;
-}
-.about-company__item {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 20px;
-  color: #000000;
-  width: 255px;
-  padding: 55px 5px 5px 0;
-  margin: 15px 0 8px;
-  background-position: 0 2px;
-  background-repeat: no-repeat;
-}
-.about-company__item--materials {
-  background-image: url("../../assets/img/icon-feature-1.svg");
-  background-position: 8px 0;
-}
-.about-company__item--style {
-  background-image: url("../../assets/img/icon-feature-3.svg");
-}
-.about-company__item--likes {
-  background-image: url("../../assets/img/icon-feature-5.svg");
-  background-position: 7px 7px;
-}
-.about-company__item--madewithlove {
-  background-image: url("../../assets/img/icon-feature-2.svg");
-  background-position: 4px 4px;
-}
-.about-company__item--support {
-  background-image: url("../../assets/img/icon-feature-4.svg");
-  background-position: 0 5px;
-}
-.about-company__item--gift {
-  background-image: url("../../assets/img/icon-feature-6.svg");
-  background-position: 3px 3px;
-}
+
 .contacts {
   background-image: url(/src/app/public/pages/projects/mishka/assets/img/bg-zigzag-line.svg);
   background-repeat: repeat-x;
@@ -1258,12 +1120,7 @@ fieldset {
   opacity: 0.3;
 }
 @media (min-width: 768px) {
-  .add-to-cart {
-    width: 567px;
-  }
-  .add-to-cart__prop {
-    margin: auto;
-  }
+
   .page-header {
     padding: 0;
   }
@@ -1333,70 +1190,7 @@ fieldset {
     left: 35px;
     padding: 25px 180px 25px 0;
   }
-  .about-company {
-    width: 680px;
-    min-height: 560px;
-    padding: 0 44px 30px;
-  }
-  .about-company__title {
-    font-size: 43px;
-    line-height: 50px;
-    margin-top: 50px;
-    padding: 0;
-  }
-  .about-company__list {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    min-height: 430px;
-    -ms-flex-line-pack: justify;
-    align-content: space-between;
-    margin-top: 48px;
-  }
-  .about-company__item {
-    width: 45%;
-    font-size: 20px;
-    line-height: 22px;
-    background-size: 35px;
-    background-position: 20px 5px;
-    margin: 0 20px 15px 5px;
-    padding-top: 55px;
-  }
-  .about-company__item--materials {
-    -ms-flex-order: 1;
-    order: 1;
-    background-position: 9px 0;
-    background-size: 33px;
-  }
-  .about-company__item--style {
-    -ms-flex-order: 3;
-    order: 3;
-    background-size: 50px;
-    background-position: 0 0;
-  }
-  .about-company__item--likes {
-    -ms-flex-order: 5;
-    order: 5;
-    background-size: 35px;
-    background-position: 8px 4px;
-  }
-  .about-company__item--madewithlove {
-    -ms-flex-order: 2;
-    order: 2;
-    background-position: 2px 3px;
-  }
-  .about-company__item--support {
-    -ms-flex-order: 4;
-    order: 4;
-    background-size: 55px;
-    background-position: -1px 3px;
-  }
-  .about-company__item--gift {
-    -ms-flex-order: 6;
-    order: 6;
-    background-position: 1px 0;
-  }
+
   .contacts {
     background-position: 95px top;
     background-size: 770px 16px;
@@ -1861,30 +1655,7 @@ fieldset {
     transform: translateY(-5px) scale(1, 1.01);
     transition-duration: 1s;
   }
-  .about-company {
-    width: 700px;
-    padding: 20px 180px 20px 165px;
-  }
-  .about-company__title {
-    font-size: 53px;
-    line-height: 57px;
-    margin-top: 38px;
-  }
-  .about-company__item {
-    margin: 0 20px 15px 10px;
-  }
-  .about-company__item--materials {
-    background-position: 6px 0;
-  }
-  .about-company__item--likes {
-    background-position: 5px 4px;
-  }
-  .about-company__item--madewithlove {
-    background-position: 0 3px;
-  }
-  .about-company__item--gift {
-    background-position: -1px 0;
-  }
+
   .contacts {
     background-position: 25px -4px;
     background-size: 1050px 30px;
