@@ -12,18 +12,8 @@ import {RouterModule} from "@angular/router";
 
 
 @NgModule({
-  declarations: [
-    PromoHitComponent,
-    AddToCartComponent,
-    AboutCompanyComponent,
-    ReviewsComponent,
-    ContactsComponent,
-    FeedbackComponent,
-    
-  ],
-  exports: [
-    PromoHitComponent
-  ],
+  declarations: [],
+  exports: [],
   imports: [
     CommonModule,
     RouterModule
