@@ -8,7 +8,7 @@ import {MishkaModule} from "./mishka/mishka.module";
 
 
 const routes: Routes = [
-  {path: 'mishka', component: MishkaComponent, loadChildren: () => import('./mishka/mishka.module').then(m => m.MishkaModule)},
+  {path: 'mishka',  loadChildren: () => import('./mishka/mishka.module').then(m => m.MishkaModule)},
   {path: 'sedona', component: SedonaComponent},
   {path: 'affinage', component: AffinageComponent}
 ]

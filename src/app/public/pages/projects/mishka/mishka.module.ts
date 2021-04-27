@@ -10,10 +10,11 @@ import {AddToCartComponent} from "./components/add-to-cart/add-to-cart.component
 
 
 const childRoutes: Routes = [
+  { path: '', component: MainComponent},
   { path: 'form', component: FormComponent}
 ];
 const routes: Routes = [
-  {path: '', component: MainComponent},
+  {path: '', component: MishkaComponent, children: childRoutes},
 ]
 
 @NgModule({
