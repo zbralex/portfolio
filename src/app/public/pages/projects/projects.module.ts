@@ -4,18 +4,24 @@ import {RouterModule, Routes} from "@angular/router";
 import {MishkaComponent} from "./mishka/mishka.component";
 import {SedonaComponent} from "./sedona/sedona.component";
 import {AffinageComponent} from "./affinage/affinage.component";
+import {MishkaModule} from "./mishka/mishka.module";
+
 
 const routes: Routes = [
-  {path: 'mishka', component: MishkaComponent},
+  {path: 'mishka', component: MishkaComponent, loadChildren: () => import('./mishka/mishka.module').then(m => m.MishkaModule)},
   {path: 'sedona', component: SedonaComponent},
   {path: 'affinage', component: AffinageComponent}
 ]
 
 @NgModule({
-  declarations: [],
+  declarations: [SedonaComponent, AffinageComponent],
+  exports: [
+
+  ],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    MishkaModule
   ]
 })
 export class ProjectsModule { }
