@@ -12,4 +12,7 @@ export class PromoHitComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  addToCart($event: MouseEvent) {
+    console.log($event)
+  }
 }

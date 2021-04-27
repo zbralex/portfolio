@@ -1,0 +1,42 @@
+.feedback {
+  padding: 40px 30px;
+  min-width: 260px;
+  margin: 0 auto;
+}
+.feedback__btn {
+  font-size: 18px;
+  padding: 14px 49px;
+}
+.feedback__btn-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (min-width: 768px) {
+  .feedback {
+    padding: 56px 0;
+    min-width: 768px;
+    text-align: center;
+  }
+  .feedback__btn {
+    font-size: 17px;
+    padding: 15px 38px;
+    width: 150px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1150px) {
+  .feedback {
+    width: 230px;
+    min-width: inherit;
+    position: relative;
+    bottom: 87px;
+    right: 235px;
+    margin-bottom: 19px;
+    padding: 0;
+  }
+  .feedback__btn {
+    padding: 14px 37px;
+  }
+}

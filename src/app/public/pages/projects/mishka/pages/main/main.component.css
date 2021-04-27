@@ -513,19 +513,7 @@ template {
 }
 
 
-.feedback {
-  padding: 40px 30px;
-  min-width: 260px;
-  margin: 0 auto;
-}
-.feedback__btn {
-  font-size: 18px;
-  padding: 14px 49px;
-}
-.feedback__btn-link {
-  text-decoration: none;
-  color: inherit;
-}
+
 .order {
   margin: 0 auto;
 }
@@ -1058,18 +1046,6 @@ fieldset {
     padding: 25px 180px 25px 0;
   }
 
-
-  .feedback {
-    padding: 56px 0;
-    min-width: 768px;
-    text-align: center;
-  }
-  .feedback__btn {
-    font-size: 17px;
-    padding: 15px 38px;
-    width: 150px;
-    margin: 0 auto;
-  }
   .order__descr {
     font-size: 17px;
     line-height: 30px;
