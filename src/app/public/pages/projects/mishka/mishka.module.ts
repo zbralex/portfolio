@@ -12,6 +12,7 @@ import {ReviewsComponent} from "./components/reviews/reviews.component";
 import {ContactsComponent} from "./components/contacts/contacts.component";
 import {FeedbackComponent} from "./components/feedback/feedback.component";
 import { FooterMishkaComponent } from './components/footer-mishka/footer-mishka.component';
+import { CatalogNavComponent } from './components/catalog-nav/catalog-nav.component';
 
 
 const childRoutes: Routes = [
@@ -33,6 +34,7 @@ const routes: Routes = [
     ContactsComponent,
     FeedbackComponent,
     FooterMishkaComponent,
+    CatalogNavComponent,
   ],
   exports: [
     MainNavComponent,

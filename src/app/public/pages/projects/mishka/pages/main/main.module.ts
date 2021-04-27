@@ -8,11 +8,12 @@ import {ContactsComponent} from "../../components/contacts/contacts.component";
 import {FeedbackComponent} from "../../components/feedback/feedback.component";
 import {MainNavComponent} from "../../components/main-nav/main-nav.component";
 import {RouterModule} from "@angular/router";
+import {CatalogNavComponent} from "../../components/catalog-nav/catalog-nav.component";
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [CatalogNavComponent],
   exports: [],
   imports: [
     CommonModule,
