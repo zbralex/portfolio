@@ -1158,95 +1158,7 @@ fieldset {
 .production__content:active {
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
 }
-.promo-hit {
-  background-image: url("/src/app/public/pages/projects/mishka/assets/img/bg-zigzag-line.svg");
-  background-repeat: repeat-x;
-  background-position: 8px bottom;
-  background-size: 320px 7px;
-}
-.promo-hit__wrapper {
-  padding: 12px 30px 20px;
-  min-height: 790px;
-  position: relative;
-  min-width: 260px;
-  margin: 0 auto;
-  color: #444444;
-}
-.promo-hit__title {
-  margin: 15px 0 5px;
-  padding: 0;
-}
-.promo-hit__item-link {
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 27px;
-  color: #000000;
-  text-decoration: none;
-}
-.promo-hit__marker {
-  font-weight: bold;
-  font-size: 17px;
-  text-transform: uppercase;
-  line-height: 20px;
-  color: #63d1bb;
-}
-.promo-hit__props {
-  display: table;
-  list-style-type: none;
-  width: 100%;
-  max-width: 400px;
-  padding: 0;
-  margin: 0 auto;
-}
-.promo-hit__prop-name {
-  display: table-row;
-  border-bottom: 1px solid #ececec;
-}
-.promo-hit__prop {
-  display: table-cell;
-  font-size: 15px;
-  line-height: 20px;
-  border-bottom: 1px solid #ececec;
-  width: 80px;
-  padding: 10px 15px 9px 0;
-}
-.promo-hit__prop-value {
-  width: 150px;
-}
-.promo-hit__price {
-  -ms-flex-order: 4;
-  order: 4;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  color: #444444;
-  text-align: center;
-  padding: 5px;
-  margin-top: 5px;
-}
-.promo-hit__descr {
-  font-size: 15px;
-  line-height: 24px;
-  margin: 0;
-  padding: 23px 0 18px;
-  min-height: 72px;
-}
-.promo-hit__btn {
-  margin-top: 20px;
-  padding: 15px 83px;
-}
-.promo-hit__pict {
-  width: auto;
-  height: 100%;
-  margin: 30px auto 10px;
-}
-.promo-hit__pict-wrapper {
-  width: 100%;
-  text-align: center;
-}
-.promo-hit__btn-wrapper {
-  text-align: center;
-}
+
 .reviews {
   padding: 20px 30px 45px;
   min-width: 260px;
@@ -1808,80 +1720,7 @@ fieldset {
     width: 100px;
     height: 100px;
   }
-  .promo-hit {
-    background-position: 15px bottom;
-    background-size: 773px 17px;
-  }
-  .promo-hit__wrapper {
-    min-height: 510px;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    min-width: 675px;
-    padding: 5px 45px 65px;
-    background-position: center bottom;
-    background-size: 800px;
-  }
-  .promo-hit__title {
-    text-align: left;
-    margin-top: 30px;
-  }
-  .promo-hit__item-link {
-    font-size: 43px;
-    line-height: 50px;
-  }
-  .promo-hit__marker {
-    position: absolute;
-    right: -50%;
-    top: 10px;
-    width: 100px;
-    text-align: center;
-    line-height: 17px;
-  }
-  .promo-hit__props {
-    margin: 35px 0 20px 5px;
-    width: 290px;
-  }
-  .promo-hit__prop {
-    padding: 9px 0 11px 0;
-    width: 75px;
-  }
-  .promo-hit__price {
-    -ms-flex-order: 3;
-    order: 3;
-    font-size: 20px;
-    margin-top: 50px;
-    width: 290px;
-  }
-  .promo-hit__descr {
-    font-size: 17px;
-    line-height: 30px;
-    width: 290px;
-    margin: 48px 0 20px 3px;
-    padding: 0;
-  }
-  .promo-hit__btn {
-    width: 292px;
-    height: 52px;
-    margin: 28px 3px 4px 3px;
-  }
-  .promo-hit__pict {
-    width: 335px;
-    height: 405px;
-    position: absolute;
-    top: 75px;
-    right: -52%;
-  }
-  .promo-hit__inner {
-    position: relative;
-    width: 65%;
-  }
-  .promo-hit__btn-wrapper {
-    width: 290px;
-  }
+
   .reviews {
     display: -ms-flexbox;
     display: flex;
@@ -2307,52 +2146,7 @@ fieldset {
     width: 105px;
     height: 78px;
   }
-  .promo-hit {
-    background-position: 25px bottom;
-    background-size: 1050px 30px;
-  }
-  .promo-hit__wrapper {
-    min-height: 725px;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    background-size: 1149px;
-    padding: 0 0 75px 0;
-    width: 1050px;
-  }
-  .promo-hit__item-link {
-    font-size: 53px;
-    line-height: 57px;
-  }
-  .promo-hit__marker {
-    left: 32px;
-    top: 132px;
-  }
-  .promo-hit__props {
-    margin-top: 46px;
-  }
-  .promo-hit__price {
-    margin-top: 104px;
-  }
-  .promo-hit__descr {
-    margin-top: 50px;
-    width: 43%;
-  }
-  .promo-hit__btn {
-    margin: 28px 5px 23px 5px;
-  }
-  .promo-hit__pict {
-    width: inherit;
-    height: auto;
-    top: 30px;
-    right: -23%;
-    z-index: -1;
-  }
-  .promo-hit__inner {
-    padding: 88px 0 0 170px;
-  }
-  .promo-hit__pict-wrapper {
-    width: 62%;
-  }
+
   .reviews {
     margin: 47px auto 65px;
     padding: 0 50px;
