@@ -512,68 +512,7 @@ template {
   opacity: 0.3;
 }
 
-.contacts {
-  background-image: url(/src/app/public/pages/projects/mishka/assets/img/bg-zigzag-line.svg);
-  background-repeat: repeat-x;
-  background-position: 6px top;
-  background-size: 325px 10px;
-}
-.contacts__wrapper {
-  margin: 0 auto;
-}
-.contacts__inner {
-  padding: 20px 30px 0;
-  min-height: 295px;
-}
-.contacts__list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: table;
-  font-size: 15px;
-  color: #444444;
-  line-height: 30px;
-  padding: 5px 0;
-}
-.contacts__item {
-  display: table-row;
-}
-.contacts__name {
-  display: table-cell;
-  min-width: 76px;
-  padding: 0 0 30px;
-}
-.contacts__text {
-  display: initial;
-}
-.contacts__title {
-  margin: 2px 0 1px 0;
-  font-size: 18px;
-  line-height: 30px;
-  padding: 20px 0 20px;
-}
-.contacts__map {
-  height: 457px;
-  background-image: url("../../assets/img/map-mobile@1x.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f3f1e9;
-}
-.contacts__link {
-  font-size: 15px;
-  line-height: 30px;
-  text-decoration: none;
-  color: #444444;
-  border-bottom: 1px solid #62d1ba;
-}
-/*************** styleguide start ******************/
-.contacts__link:hover {
-  color: #46c1ae;
-}
-.contacts__link:active {
-  opacity: 0.3;
-}
-/*************** styleguide end ******************/
+
 .feedback {
   padding: 40px 30px;
   min-width: 260px;
@@ -1021,79 +960,7 @@ fieldset {
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
-.reviews {
-  padding: 20px 30px 45px;
-  min-width: 260px;
-  margin: 0 auto;
-}
-.reviews__btn {
-  font-size: 18px;
-  padding: 14px 78px;
-}
-.reviews__btn-link {
-  color: inherit;
-  text-decoration: none;
-}
-.reviews__title {
-  font-size: 25px;
-  line-height: 30px;
-  padding: 0 0 10px;
-  margin: 0;
-}
-.reviews__list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-.reviews__descr {
-  font-size: 15px;
-  line-height: 30px;
-  color: #444444;
-  padding-bottom: 13px;
-}
-.reviews__user-name {
-  font-weight: bold;
-  font-size: 17px;
-  font-style: normal;
-  line-height: 24px;
-  color: #000000;
-}
-.reviews__user-mail {
-  font-size: 17px;
-  line-height: 30px;
-}
-.reviews__pagination {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  padding: 30px 0 37px;
-}
-.reviews__pagination-item {
-  position: relative;
-  font-size: 0;
-  padding: 25px 60px;
-  background-color: #ffffff;
-  border: 1px solid #ececec;
-  -ms-flex-preferred-size: 50%;
-  flex-basis: 50%;
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-}
-.reviews__pagination-item--prev {
-  background-image: url("../../assets/img/icon-left-arrow.svg");
-}
-.reviews__pagination-item--next {
-  background-image: url("../../assets/img/icon-right-arrow.svg");
-}
-/* styleguide start */
-.reviews__pagination-item:hover {
-  opacity: 0.6;
-}
-.reviews__pagination-item:active {
-  opacity: 0.3;
-}
+
 .socials__icon {
   padding: 25px 20px;
 }
@@ -1191,57 +1058,7 @@ fieldset {
     padding: 25px 180px 25px 0;
   }
 
-  .contacts {
-    background-position: 95px top;
-    background-size: 770px 16px;
-  }
-  .contacts__wrapper {
-    padding: 15px 0 0 0;
-  }
-  .contacts__inner {
-    min-height: 240px;
-    background-image: url("../../assets/img/icon-flag.svg");
-    background-repeat: no-repeat;
-    background-position: 92.7% 7%;
-    padding: 0 45px;
-    margin-top: 35px;
-  }
-  .contacts__list {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    font-size: 17px;
-    margin-top: 25px;
-    padding: 5px 5px;
-  }
-  .contacts__item {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-  }
-  .contacts__name {
-    display: initial;
-  }
-  .contacts__title {
-    font-size: 43px;
-    line-height: 50px;
-    padding: 25px 0 20px;
-    margin: 35px 0 0 0;
-  }
-  .contacts__map {
-    background-image: url("../../assets/img/map-tablet@1x.jpg");
-    margin-top: 30px;
-  }
-  .contacts__map-frame {
-    width: 100%;
-  }
-  .contacts__link {
-    font-size: 17px;
-  }
+
   .feedback {
     padding: 56px 0;
     min-width: 768px;
@@ -1515,106 +1332,7 @@ fieldset {
     height: 100px;
   }
 
-  .reviews {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    min-width: 677px;
-    background-image: url("../../assets/img/review@1x.jpg");
-    background-repeat: no-repeat;
-    background-position: left top;
-    padding: 0 45px 70px;
-  }
-  .reviews__item {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    height: 100%;
-  }
-  .reviews__btn {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-align: center;
-    align-items: center;
-    position: relative;
-    top: 78px;
-    width: 172px;
-    height: 46px;
-    right: 4px;
-    padding: 0;
-  }
-  .reviews__title {
-    font-size: 43px;
-    line-height: 50px;
-    width: 100%;
-    padding: 10px 0;
-    -ms-flex-order: 1;
-    order: 1;
-  }
-  .reviews__list {
-    -ms-flex-order: 3;
-    order: 3;
-    height: 100%;
-    margin-top: 10px;
-  }
-  .reviews__descr {
-    font-size: 17px;
-    min-height: 120px;
-    /** чтобы при растягивании нижние блоки не смещались вверх **/
-    margin: 0;
-    padding: 30px 5px;
-  }
-  .reviews__user-name {
-    font-size: 18px;
-    -ms-flex-order: 4;
-    order: 4;
-    position: relative;
-    top: 28px;
-    left: 5px;
-  }
-  .reviews__user-mail {
-    font-size: 18px;
-    -ms-flex-order: 5;
-    order: 5;
-    position: relative;
-    top: 34px;
-  }
-  .reviews__pagination {
-    -ms-flex-order: 3;
-    order: 3;
-    width: 174px;
-    padding: 0;
-    position: relative;
-    bottom: 68px;
-    right: 6px;
-  }
-  .reviews__pagination-item {
-    border: none;
-    height: 30px;
-    padding: 0;
-  }
-  .reviews__wrapper {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    -ms-flex-order: 2;
-    order: 2;
-    min-height: 390px;
-    margin-top: 15px;
-  }
+
   .socials__icon {
     padding: 0;
   }
@@ -1656,52 +1374,7 @@ fieldset {
     transition-duration: 1s;
   }
 
-  .contacts {
-    background-position: 25px -4px;
-    background-size: 1050px 30px;
-    margin-bottom: 20px;
-  }
-  .contacts__wrapper {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    width: 1050px;
-    padding: 50px 0 14px;
-  }
-  .contacts__inner {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 300px;
-    background-position: 63px 70px;
-    padding: 0 0 0 170px;
-  }
-  .contacts__list {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin: 50px 0 0 5px;
-    padding: 0;
-  }
-  .contacts__item {
-    -ms-flex-preferred-size: initial;
-    flex-basis: initial;
-    padding-right: 20px;
-  }
-  .contacts__title {
-    font-size: 53px;
-    line-height: 57px;
-    margin-top: 79px;
-    padding: 0;
-  }
-  .contacts__map {
-    width: 50%;
-    margin-top: 45px;
-    background-image: url("../../assets/img/map-desktop@1x.jpg");
-  }
+
   .feedback {
     width: 230px;
     min-width: inherit;
@@ -1918,42 +1591,7 @@ fieldset {
     height: 78px;
   }
 
-  .reviews {
-    margin: 47px auto 65px;
-    padding: 0 50px;
-    background-position: left center;
-    background-size: contain;
-    min-height: 460px;
-    max-width: 950px;
-  }
-  .reviews__btn {
-    top: 79px;
-    left: 50px;
-    height: 48px;
-  }
-  .reviews__title {
-    font-size: 53px;
-    line-height: 57px;
-  }
-  .reviews__descr {
-    padding: 30px 0 10px;
-  }
-  .reviews__user-name {
-    font-size: 17px;
-    position: inherit;
-  }
-  .reviews__user-mail {
-    font-size: 17px;
-    position: inherit;
-  }
-  .reviews__pagination {
-    bottom: 119px;
-    left: 47px;
-  }
-  .reviews__wrapper {
-    margin: 0;
-    padding-left: 125px;
-  }
+
   .socials__icon {
     height: 28px;
     width: 23px;

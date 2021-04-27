@@ -1,0 +1,214 @@
+.reviews {
+  padding: 20px 30px 45px;
+  min-width: 260px;
+  margin: 0 auto;
+}
+.reviews__btn {
+  font-size: 18px;
+  padding: 14px 78px;
+}
+.reviews__btn-link {
+  color: inherit;
+  text-decoration: none;
+}
+.reviews__title {
+  font-size: 25px;
+  line-height: 30px;
+  padding: 0 0 10px;
+  margin: 0;
+}
+.reviews__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.reviews__descr {
+  font-size: 15px;
+  line-height: 30px;
+  color: #444444;
+  padding-bottom: 13px;
+}
+.reviews__user-name {
+  font-weight: bold;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 24px;
+  color: #000000;
+}
+.reviews__user-mail {
+  font-size: 17px;
+  line-height: 30px;
+}
+.reviews__pagination {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 30px 0 37px;
+}
+.reviews__pagination-item {
+  position: relative;
+  font-size: 0;
+  padding: 25px 60px;
+  background-color: #ffffff;
+  border: 1px solid #ececec;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.reviews__pagination-item--prev {
+  background-image: url("../../assets/img/icon-left-arrow.svg");
+}
+.reviews__pagination-item--next {
+  background-image: url("../../assets/img/icon-right-arrow.svg");
+}
+/* styleguide start */
+.reviews__pagination-item:hover {
+  opacity: 0.6;
+}
+.reviews__pagination-item:active {
+  opacity: 0.3;
+}
+
+@media (min-width: 768px) {
+  .reviews {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    min-width: 677px;
+    background-image: url("../../assets/img/review@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 0 45px 70px;
+  }
+  .reviews__item {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+  }
+  .reviews__btn {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    top: 78px;
+    width: 172px;
+    height: 46px;
+    right: 4px;
+    padding: 0;
+  }
+  .reviews__title {
+    font-size: 43px;
+    line-height: 50px;
+    width: 100%;
+    padding: 10px 0;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .reviews__list {
+    -ms-flex-order: 3;
+    order: 3;
+    height: 100%;
+    margin-top: 10px;
+  }
+  .reviews__descr {
+    font-size: 17px;
+    min-height: 120px;
+    /** чтобы при растягивании нижние блоки не смещались вверх **/
+    margin: 0;
+    padding: 30px 5px;
+  }
+  .reviews__user-name {
+    font-size: 18px;
+    -ms-flex-order: 4;
+    order: 4;
+    position: relative;
+    top: 28px;
+    left: 5px;
+  }
+  .reviews__user-mail {
+    font-size: 18px;
+    -ms-flex-order: 5;
+    order: 5;
+    position: relative;
+    top: 34px;
+  }
+  .reviews__pagination {
+    -ms-flex-order: 3;
+    order: 3;
+    width: 174px;
+    padding: 0;
+    position: relative;
+    bottom: 68px;
+    right: 6px;
+  }
+  .reviews__pagination-item {
+    border: none;
+    height: 30px;
+    padding: 0;
+  }
+  .reviews__wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -ms-flex-order: 2;
+    order: 2;
+    min-height: 390px;
+    margin-top: 15px;
+  }
+}
+@media (min-width: 1150px) {
+  .reviews {
+    margin: 47px auto 65px;
+    padding: 0 50px;
+    background-position: left center;
+    background-size: contain;
+    min-height: 460px;
+    max-width: 950px;
+  }
+  .reviews__btn {
+    top: 79px;
+    left: 50px;
+    height: 48px;
+  }
+  .reviews__title {
+    font-size: 53px;
+    line-height: 57px;
+  }
+  .reviews__descr {
+    padding: 30px 0 10px;
+  }
+  .reviews__user-name {
+    font-size: 17px;
+    position: inherit;
+  }
+  .reviews__user-mail {
+    font-size: 17px;
+    position: inherit;
+  }
+  .reviews__pagination {
+    bottom: 119px;
+    left: 47px;
+  }
+  .reviews__wrapper {
+    margin: 0;
+    padding-left: 125px;
+  }
+}
