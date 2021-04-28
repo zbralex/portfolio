@@ -1,12 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {AuthService} from "./services/auth.service";
+import {Route, RouterModule, Routes} from "@angular/router";
+import { AdminLayoutComponent } from './components/admin-layout/admin-layout.component';
+import { LoginComponent } from './pages/login/login.component';
 
-
-
+const childRoutes: Routes = [
+  {path: '', redirectTo: 'admin/login', pathMatch: 'full'},
+  {path: 'login', component: LoginComponent}
+]
+const routes: Routes = [
+  {path: '', component: AdminLayoutComponent, children: childRoutes}
+]
 @NgModule({
-  declarations: [],
+  declarations: [ AdminLayoutComponent, LoginComponent],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+    RouterModule.forChild(routes)
+  ],
+  providers: [AuthService]
 })
 export class AdminModule { }
