@@ -1,0 +1,23 @@
+
+<mat-card class="login login-wrapper">
+
+  <form [formGroup]="loginForm">
+    <div>
+      <mat-form-field appearance="fill" >
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Введите логин" formControlName="email">
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field appearance="fill">
+        <mat-label>Пароль</mat-label>
+        <input matInput placeholder="Введите пароль" formControlName="password">
+      </mat-form-field>
+    </div>
+
+    <div>
+      <button (click)="login()" mat-raised-button color="primary">Авторизоваться</button>
+    </div>
+  </form>
+</mat-card>

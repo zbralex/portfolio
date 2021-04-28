@@ -10,6 +10,7 @@ import { MyWorksComponent } from './public/components/my-works/my-works.componen
 import { FooterComponent } from './public/components/footer/footer.component';
 import {BrowserModule} from "@angular/platform-browser";
 import {NgModule} from "@angular/core";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {NgModule} from "@angular/core";
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

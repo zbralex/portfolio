@@ -5,6 +5,9 @@ import {Route, RouterModule, Routes} from "@angular/router";
 import { AdminLayoutComponent } from './components/admin-layout/admin-layout.component';
 import { LoginComponent } from './pages/login/login.component';
 
+import {MaterialModule} from "./material/material.module";
+import {ReactiveFormsModule} from "@angular/forms";
+
 const childRoutes: Routes = [
   {path: '', redirectTo: 'admin/login', pathMatch: 'full'},
   {path: 'login', component: LoginComponent}
@@ -16,7 +19,9 @@ const routes: Routes = [
   declarations: [ AdminLayoutComponent, LoginComponent],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    MaterialModule,
+    ReactiveFormsModule
   ],
   providers: [AuthService]
 })
