@@ -7,22 +7,24 @@ import { LoginComponent } from './pages/login/login.component';
 
 import {MaterialModule} from "./material/material.module";
 import {ReactiveFormsModule} from "@angular/forms";
+import { AdminToolbarComponent } from './admin-toolbar/admin-toolbar.component';
+import {AuthGuard} from "./services/auth.guard";
 
 const childRoutes: Routes = [
-  {path: '', redirectTo: 'admin/login', pathMatch: 'full'},
+  {path: '', redirectTo: 'admin', pathMatch: 'full', canActivate: [AuthGuard]},
   {path: 'login', component: LoginComponent}
 ]
 const routes: Routes = [
   {path: '', component: AdminLayoutComponent, children: childRoutes}
 ]
 @NgModule({
-  declarations: [ AdminLayoutComponent, LoginComponent],
+  declarations: [ AdminLayoutComponent, LoginComponent, AdminToolbarComponent],
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
     MaterialModule,
     ReactiveFormsModule
   ],
-  providers: [AuthService]
+  providers: [AuthService, AuthGuard]
 })
 export class AdminModule { }
