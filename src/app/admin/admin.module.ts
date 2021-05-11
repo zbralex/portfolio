@@ -9,16 +9,18 @@ import {MaterialModule} from "./material/material.module";
 import {ReactiveFormsModule} from "@angular/forms";
 import { AdminToolbarComponent } from './admin-toolbar/admin-toolbar.component';
 import {AuthGuard} from "./services/auth.guard";
+import { SortedListComponent } from './sorted-list/sorted-list.component';
 
 const childRoutes: Routes = [
-  {path: '', redirectTo: 'admin', pathMatch: 'full', canActivate: [AuthGuard]},
-  {path: 'login', component: LoginComponent}
+  {path: '', redirectTo: 'admin', pathMatch: 'full'},
+  {path: 'login', component: LoginComponent},
+  {path: 'sorted-list', component: SortedListComponent, canActivate: [AuthGuard]}
 ]
 const routes: Routes = [
   {path: '', component: AdminLayoutComponent, children: childRoutes}
 ]
 @NgModule({
-  declarations: [ AdminLayoutComponent, LoginComponent, AdminToolbarComponent],
+  declarations: [ AdminLayoutComponent, LoginComponent, AdminToolbarComponent, SortedListComponent],
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
